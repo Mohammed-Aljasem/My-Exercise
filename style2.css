@@ -1,0 +1,32 @@
+.center {
+    
+    box-sizing: 40% 60%;
+    margin: 0% 30%;
+    padding: 10px 60px;
+    text-align: right;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+ 
+   
+}
+legend {
+    text-align: left;
+}
+fieldset{
+    background-color: yellow;
+}
+.one input {
+    width: 70%;
+  padding: 12px;
+  
+  display: inline-block;
+  float: right;
+}
+label{
+    padding: 10px 50px;
+    
+}
+*{
+    box-sizing: border-box;
+}
