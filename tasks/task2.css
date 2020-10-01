@@ -1,0 +1,22 @@
+th ,td {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 1 auto;
+    padding: 5px;
+    margin-right: 100px;
+    box-shadow: 3px 3px 3px;
+
+}
+tr {
+    margin: 20px;
+    margin left: 20px;
+}
+*
+{
+    margin: 20px;
+
+}
+table tr th {
+    margin-left: 100px;
+    
+}
