@@ -1,0 +1,43 @@
+.one {
+    
+    float: left;
+    width: 20%;
+    height: 20vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin:10px 25px 0px 25px;
+    border: 2px ;
+    background-color: white;
+}
+.two {
+    
+    overflow: scroll;
+    height: 15vh;
+    margin: 20px 5px 20px 25px;
+    font-size: 25px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+}
+.center {
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+    margin:  0px;
+
+}
+.three {
+    float: left;
+    display: inline;
+    width: 20%;
+    height: 20vh;
+    background-color: white;
+    border: 2px;
+    margin: 0px 25px;
+    overflow: hidden
+    ;
+}
+h1 {
+    margin: 0px 25px;
+}
+ 

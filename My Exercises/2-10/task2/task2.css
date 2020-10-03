@@ -1,0 +1,48 @@
+
+
+.four
+{
+    background-color: green;
+    border: ;
+    border: 25px solid yellow;
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.three {
+    background-color: yellow;
+    border: ;
+    border: 25px solid green;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    color: honeydew;
+    position: relative;
+    box-sizing: border-box;
+    top: 50%;
+    
+
+}
+.two {
+
+    border: yellow 25px solid ;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.one {
+    border: green 25px solid;
+    box-sizing: border-box;
+    
+    width: 100%;
+    height: 100vh;
+    
+}

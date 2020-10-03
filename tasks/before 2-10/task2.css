@@ -5,6 +5,7 @@ th ,td {
     padding: 5px;
     margin-right: 100px;
     box-shadow: 3px 3px 3px;
+    border-spacing: 5px;
 
 }
 tr {
@@ -19,4 +20,7 @@ tr {
 table tr th {
     margin-left: 100px;
     
+}
+table {
+    border-spacing: 15px;
 }
