@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+   
+  .one,.two,.three,.four, .five ,.six {
+      border: 1px solid red;
+      width: 2em;
+      height: 15vh;
+      margin: 0.7rem;
+  }
+  
+ 
