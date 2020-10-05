@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#containar {
+    display: flex;
+    flex-direction: ;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+    
+
+}
+.item {
+    background-color: coral;
+    margin: 0.75rem 1.35rem;
+    padding: 1rem 1.35rem;
+    flex :1;
+    
+
+}

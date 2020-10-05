@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    display: flex;
+    border: 0.3rem solid orange;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60vh;
+    box-sizing: border-box;
+    
+}
+
+.item {
+    box-sizing: border-box;
+   
+    padding: 1rem 10rem;
+    color: cornflowerblue;
+    background-color: crimson;
+    height: 20vh;
+    margin: ;
+    
+    
+}
