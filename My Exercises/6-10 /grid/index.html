@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #test {
+            width: 80%;
+            margin: 0rem auto;
+            height: 80vh;
+           
+        }
+        #container {
+            height: 70%;
+            display: grid;
+            box-sizing: border-box;
+            grid-template-columns: repeat(3 ,2fr);
+            grid-template-rows: 1fr 3fr 3fr 3fr ;
+            gap: 0.7rem 2rem;
+        }
+        
+           
+        
+        .one{
+            grid-column-start: 1;
+            grid-column-end:4 ;
+            background-color: grey;
+        }
+        .two {
+            background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .three,.seven {
+            background-color: red;
+        }
+        .four,.five,.six {
+            background-color: yellow;
+
+        }
+        .eight {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: blue;
+        }
+        .center{
+            height: 30%;
+            margin-top: 0.7rem;
+            
+            display: grid;
+            grid-template-columns: repeat(3 ,auto);
+            grid-template-rows: 3fr 1fr;
+            gap: 0.5rem 2rem;
+        }
+        .thirteen {
+            grid-column-start: 1  ;
+            grid-column-end: 5;
+            background-color: grey;
+        }
+        .nine,.ten,.test1,.test2 {
+            background-color: orange;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="test">
+        <div id="container">
+            <div class="item one">1</div>
+            <div class="item two">2</div>
+            <div class="item three">3</div>
+            <div class="item four">4</div>
+            <div class="item five">5</div>
+            <div class="item six">6</div>
+            <div class="item seven">7</div>
+            <div class="item eight">8</div>
+        </div>
+        <div class="center">
+            <div class="item nine">9</div>
+            <div class="item ten">10</div>
+            <div class="item test1">11</div>
+            <div class="item test2">12</div>
+            <div class="item thirteen">13</div>
+        </div>
+    </div>
+</body>
+</html>
