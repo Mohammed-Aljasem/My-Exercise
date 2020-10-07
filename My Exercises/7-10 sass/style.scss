@@ -1,0 +1,144 @@
+//-----------unit-------------
+$size1: 0.5rem;
+$size2: 1rem;
+$size3: 1.5rem;
+$size4: 2rem;
+
+//----------colors------------
+$color1: yellow;
+$color2: coral;
+$color3: skyblue;
+$color4: teal;
+
+//-----------rows-------------
+@mixin rows($x) {
+  grid-row: $x;
+}
+
+//-------------column-----------
+@mixin col($z) {
+  grid-column-start: $z;
+}
+
+@mixin col1($c) {
+  grid-column-end: $c;
+}
+
+//-------------code-------------
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: $size1;
+  margin: $size1;
+  text-align: center;
+  height: 80vh;
+  box-sizing: border-box;
+}
+
+.item {
+  padding: $size4;
+  background-color: $color3;
+  font-weight: bold;
+}
+
+.sub1 {
+  @include rows(1);
+  @include col(1);
+  @include col1(13);
+}
+
+.sub2 {
+  @include rows(2);
+  @include col(1);
+  @include col1(7);
+}
+
+.sub3 {
+  @include rows(2);
+  @include col(7);
+  @include col1(13);
+}
+
+.sub4 {
+  @include rows(3);
+  @include col(1);
+  @include col1(5);
+}
+
+.sub5 {
+  @include rows(3);
+  @include col(5);
+  @include col1(9);
+}
+
+.sub6 {
+  @include rows(3);
+  @include col(9);
+  @include col1(13);
+}
+
+.sub7 {
+  @include rows(4);
+  @include col(1);
+  @include col1(4);
+}
+
+.sub8 {
+  @include rows(4);
+  @include col(4);
+  @include col1(7);
+}
+
+.sub9 {
+  @include rows(4);
+  @include col(7);
+  @include col1(10);
+}
+
+.sub10 {
+  @include rows(4);
+  @include col(10);
+  @include col1(13);
+}
+
+.sub11 {
+  @include rows(5);
+  @include col(1);
+  @include col1(3);
+}
+
+.sub12 {
+  @include rows(5);
+  @include col(3);
+  @include col1(5);
+}
+
+.sub13 {
+  @include rows(5);
+  @include col(5);
+  @include col1(7);
+}
+
+.sub14 {
+  @include rows(5);
+  @include col(7);
+  @include col1(9);
+}
+
+.sub17 {
+  @include rows(5);
+  @include col(9);
+  @include col1(11);
+}
+
+.sub18 {
+  @include rows(5);
+  @include col(11);
+  @include col1(13);
+}

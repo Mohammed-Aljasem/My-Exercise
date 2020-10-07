@@ -1,0 +1,154 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  gap: 0.5rem;
+  margin: 0.5rem;
+  text-align: center;
+  height: 80vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.item {
+  padding: 2rem;
+  background-color: skyblue;
+  font-weight: bold;
+}
+
+.sub1 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.sub2 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.sub3 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 13;
+}
+
+.sub4 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.sub5 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 9;
+}
+
+.sub6 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 9;
+      grid-column-start: 9;
+  grid-column-end: 13;
+}
+
+.sub7 {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.sub8 {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+.sub9 {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 10;
+}
+
+.sub10 {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  -ms-grid-column: 10;
+      grid-column-start: 10;
+  grid-column-end: 13;
+}
+
+.sub11 {
+  -ms-grid-row: 5;
+  grid-row: 5;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.sub12 {
+  -ms-grid-row: 5;
+  grid-row: 5;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.sub13 {
+  -ms-grid-row: 5;
+  grid-row: 5;
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.sub14 {
+  -ms-grid-row: 5;
+  grid-row: 5;
+  -ms-grid-column: 7;
+      grid-column-start: 7;
+  grid-column-end: 9;
+}
+
+.sub17 {
+  -ms-grid-row: 5;
+  grid-row: 5;
+  -ms-grid-column: 9;
+      grid-column-start: 9;
+  grid-column-end: 11;
+}
+
+.sub18 {
+  -ms-grid-row: 5;
+  grid-row: 5;
+  -ms-grid-column: 11;
+      grid-column-start: 11;
+  grid-column-end: 13;
+}
+/*# sourceMappingURL=style.css.map */
